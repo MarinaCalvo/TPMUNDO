@@ -1,0 +1,95 @@
+
+
+
+.iniciasesion {
+    text-align: center;
+}
+
+
+.Logo {
+    display: flex;
+    justify-content: center;
+    animation:rotateIn;
+    animation-duration: 30s;
+    
+}
+
+ 
+.titulo {
+    
+text-align: center; background-color: rgb(16, 16, 16);
+font-family: goudy stout ; color: aquamarine; 
+font-size: 70px; 
+animation: toda;
+animation-duration: 10s;
+--animate-repeat: 50s
+
+}
+
+.subtitulo {
+text-align: center; color: rgb(174, 171, 216); font-size: larger;
+
+}
+
+.subtitulo > a {
+    text-align: center; color: rgb(174, 171, 216); font-size: larger
+}
+
+.formulario {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: bolder;
+     color: antiquewhite;
+
+}
+
+.paisajes {
+    display: flex;
+    justify-content: center;
+}
+
+.paisaje {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 300px;
+    margin: 1rem;
+}
+
+.paisaje > img {
+    width: 300px;
+    height: 300px;
+}
+
+.textopaisaje {
+    margin: 1.2rem; text-justify: auto;
+}
+ 
+
+.botones > a:hover {
+    
+    padding: 5px;
+    animation:heartBeat;
+    animation-duration: 5s;
+        cursor: pointer;
+
+      
+        
+
+}
+
+
+.nombrepais {
+    margin: 1rem; text-align: center;
+}
+
+.nosotros {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color: antiquewhite;
+}
+
+.iniciasesion {
+    color: rgb(31, 31, 32);
+    margin-top: 10px;
+    
+}
